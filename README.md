@@ -31,9 +31,11 @@
 
 <p>Copyright 2018 Northwood Labradoodles</p>
 
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+<p align="center">
+Apache License<br>
+Version 2.0, January 2004<br>
+<a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a>
+</p>
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
