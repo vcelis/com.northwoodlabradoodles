@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="left-section full-height">
+  <!-- <a class="logo" href="#"><img src="images/logo-black.png" alt="Logo"></a> -->
+
+  <div class="display-table">
+    <div class="display-table-cell">
+      <div class="main-content">
+        <h2 class="title"><b>Under Construction!</b></h2>
+        <p>We are working on our website right now. Stay tuned for updates! In the meanwhile, check out our Instagram below.</p>
+        <div class="email-input-area">
+          {% if success_email %}
+           <p class="post-desc" style="font-weight: 800;">{{ success_email }}</p>
+          {% else %}
+          <form method="post" action="/register">
+            <input class="email-input" name="email" type="text" placeholder="Enter your email"/>
+            <button class="submit-btn" name="submit" type="submit"><b>UPDATE ME</b></button>
+          </form>
+          {% endif %}
+        </div>
+        <p class="post-desc">We will let you know when we go live.</p>
+         {% if error_email %}
+           <p class="post-desc" style="font-weight: 800;">{{ error_email }}</p>
+         {% endif %}
+      </div><!-- main-content -->
+    </div><!-- display-table-cell -->
+  </div><!-- display-table -->
+
+  <ul class="footer-icons">
+    <li>Stay in touch :</li>
+    <!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li> -->
+    <li><a href="https://www.instagram.com/northwoodlabradoodles/" target="_blank"><i class="ion-social-instagram-outline"></i></a></li>
+    <!--
+    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+    <li><a href="#"><i class="ion-social-pinterest"></i></a></li>
+  -->
+  </ul>
+</section><!-- left-section -->
+
+<section class="right-section" style="background-image: url(img/fleur.jpg)">
+</section><!-- right-section -->
+{% endblock %}
