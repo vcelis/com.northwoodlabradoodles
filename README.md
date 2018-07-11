@@ -27,9 +27,6 @@
 <p>The jinja2 environment is configured to use memcache to cache the html requests.</p>
 
 <h2>License</h2>
-<p>Apache 2.0 License</p>
-
-<p>Copyright 2018 Northwood Labradoodles</p>
 
 <p align="center">
 Apache License<br>
@@ -209,3 +206,5 @@ Version 2.0, January 2004<br>
       of your accepting any such warranty or additional liability.
 
       END OF TERMS AND CONDITIONS
+
+<p>Copyright 2018 Northwood Labradoodles</p>
